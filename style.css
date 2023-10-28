@@ -1,0 +1,88 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-image: url("https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-04-aluraflix-e-filmes.png");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-latam-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+#listaPeliculas img {
+  margin: 10px;
+  max-height: 250px;
+}
+
+.form-wrapper {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  gap: 20px;
+}
+
+.form-wrapper input {
+  width: 20%;
+  height: 36px;
+  border: none;
+  outline: none;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.form-wrapper button {
+  border: 0;
+  color: #ffffff;
+  background: #01B869;
+  font-weight: bold;
+  padding: 15px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+
+}
+
+.form-wrapper button:hover {
+  opacity: 0.8;
+}
+
+.listaPeliculas {
+  display: flex;
+
+}
+
+.btn-delete{
+  background-color: rgb(185, 34, 34);
+  color: #ffffff;
+  font-weight: bold;
+  border: none;
+}
+
+.img-movie {
+}
